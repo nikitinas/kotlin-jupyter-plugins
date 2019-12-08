@@ -16,3 +16,11 @@ allprojects {
         mavenCentral()
     }
 }
+sourceSets {
+    main {
+        resources {
+            srcDir "."
+            include "libraries/*"
+        }
+    }
+}
